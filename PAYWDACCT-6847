@@ -1,0 +1,12 @@
+h2. Steps to reproduce the bug:
+# First ensure that Payment Election Enrollment Event, 882$127 has "Do Not Allow Rescind" Unchecked and the necessary Business Policy Security for Rescind
+# Create Payment Elections with two Bank Accounts on Aidan Mitzner
+## Add new Bank account
+## 
+# Add Super User as Expense Settlement Specialist role on 500.1 GMS
+# Create Prenote Run and Update Prenote Run on one of the bank Accounts
+## Status of Worker bank accounts on Payment Election should be "Pending" and "Complete"
+# Edit the "Complete" Bank account and Submit
+# Verify now both BA are in "Pending Status"
+# Rescind the most recent event
+# See that one BA is "none" and the other is "complete"

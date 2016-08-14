@@ -1,0 +1,48 @@
+Pay for Worker Profile, 4071$9
+
+Push Get Payment Election Enrollments sooner
+
+Might need the student team to react as well
+
+
+
+The Submit Payment Elections redirect does not get the proper Prenote account
+
+
+In our Processing/ copying Prenoting is being stripped when copying forward
+
+WBA Stuff:
+
+Add Account, 2997$2851
+Add My Account, 2997$992
+Change Account, 2997$2852
+Change My Account, 2997$993
+
+Worker Bank Account Edit for Self Service, 6$10406
+* Worker Bank Account@process Worker Bank Account Edit for Self Service(PU)*S, 11$3391
+** account used in complete enrollment, copy enrollment set : Worker Bank Account@ Payment Election Enrollment /New Instance /Worker Bank Account Edit for Self Service(PRU)*S+???+PA, 54$4828
+** True conditions:
+*** Payment Election@get Payment Elections for Worker Bank Account parm(GRS)*P*S[rsmb], 87$26812
+** False:
+*** Payment Election Enrollment Pending at Start of Process, 15$20122
+
+Payment Election stuff
+
+Add Elections, 2997$2855
+Add My Elections, 2997$1119
+Change Election, 2997$2854
+Change My Election, 2997$989
+
+Payment Elections for Payment Rule Edit, 6$10390
+* Payment Election Enrollment@process Payment Elections for Payment Rule Edit(PU)*S, 11$3133
+** Step a: Payment Election Enrollment@ Payment Election Enrollment /New Instance /Worker Bank Account Edit for Self Service(PRU)*P*S+???+PA, 54$4838
+** False conditions
+*** Payment Election Enrollment Pending at Start of Save, 15$20164
+
+
+Initial stuff:
+
+Add Elections, 2997$2861
+Add My Elections, 2997$994
+
+Payment Election Enrollable@ Payment Election Setup Start(CT)*S, 8$2987
