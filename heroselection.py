@@ -2,11 +2,6 @@
 
 import sys, os, random, pygame
 from pygame.locals import *
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
 
 BOXSIZE = pic_wid = 80
 pic_height = 80
